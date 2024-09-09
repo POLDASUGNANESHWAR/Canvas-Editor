@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Canvas Text Editor</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <div id="controls">
+        <input type="text" id="textInput" placeholder="Enter text" />
+        <button id="addText">Add Text</button>
+        <button id="undo">Undo</button>
+        <button id="redo">Redo</button>
+        <select id="fontSize">
+            <option value="20">20px</option>
+            <option value="30">40px</option>
+            <option value="40">60px</option>
+        </select>
+        <select id="fontStyle">
+            <option value="Arial">Arial</option>
+            <option value="Times New Roman">Times New Roman</option>
+            <option value="Courier New">Courier New</option>
+        </select>
+    </div>
+
+    <canvas id="canvas" width="600" height="400"></canvas>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
